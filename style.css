@@ -1,7 +1,124 @@
 body{
-    padding: 2em;
+    margin: 0;
 }
 .main_grid{
     display: grid;
-    
 }
+.header{
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("images/laptop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 45%;
+}
+.header h1{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: silver;
+    font-size: 2em;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(201, 97, 158), rgb(252, 150, 69));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.face_pic{
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+}
+.about{
+    background-color: #36393e;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-image: linear-gradient(to right,rgb(201, 97, 158), rgb(252, 150, 69))1;
+}
+.about h1{
+    margin: 0;
+    font-size: 3em;
+    padding: .5em;
+    text-align: center;
+    color: #7289da
+}
+.about p{
+    color: silver;
+    font-size: 1.3em;
+    padding-bottom: 2em;
+    text-align: center;
+    margin: 0;
+}
+
+.skills{
+    margin: 0;
+    background-color: #282b30;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-image: linear-gradient(to right,rgb(201, 97, 158), rgb(252, 150, 69))1;
+
+}
+.skills h1{
+    margin: 0;
+    font-size: 3em;
+    padding: .5em;
+    text-align: center;
+    color: #7289da
+}
+.skills p{
+    color: silver;
+    font-size: 1.3em;
+    padding-bottom: 2em;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+
+
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #1e2124;
+    z-index: 999;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
