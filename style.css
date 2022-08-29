@@ -1,0 +1,7 @@
+body{
+    padding: 2em;
+}
+.main_grid{
+    display: grid;
+    
+}
