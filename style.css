@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
 }
@@ -24,8 +25,8 @@ body{
     -webkit-text-fill-color: transparent;
 }
 .face_pic{
-    width: 10em;
-    height: 10em;
+    max-width: 10em;
+    height: auto;
     border-radius: 50%;
 }
 .about{
@@ -105,27 +106,136 @@ body{
     width: 20em;
     border-radius: 5%;
     margin: 2em;
-    background: white;
+    background: #36393e;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-span {
+.project span {
     height: 100px;
     display: block;
     width: 100%;
     background: #71A6B8;
 }
+.content h3{
+    margin: 0;
+    color: #7289da;
+}
 
 p.date {
-    text-align: center;
+    text-align: left;
     font-size: .7em;
     text-transform: uppercase;
+    color: silver;
 }
 p.desc {
     font-size: .9em;
+    margin-bottom: 0;
+    text-align: left;
+    margin-top: .5em;
+    color: silver;
 }
 
+a{
+    text-decoration: none;
+}
+
+
+.contact{
+    padding: 2em;
+    background-color: #1e2124;
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-image: linear-gradient(to right,rgb(201, 97, 158), rgb(252, 150, 69))1;
+}
+.con_cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.contact h1{
+    margin: 0;
+    font-size: 2em;
+    padding: .5em;
+    text-align: center;
+    color: #7289da
+}
+.contact h3{
+    color: silver;
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: .3em;
+    margin: 0;
+
+}
+.contact p{
+    color: silver;
+    font-size: 1.3em;
+    padding-top: .2em;
+    padding-bottom: 2em;
+    text-align: center;
+    margin: 0;
+}
+.copy_pic{
+    height: 30px;
+    width: 30px;
+    padding-left: .3em;
+    margin-bottom: 5em;
+}
+.email_content{
+    display: flex;
+    justify-content: center;
+}
+.phone_content{
+    display: flex;
+    justify-content: center;
+}
+.Phone{
+    width: 20em;
+}
+.Email{
+    width: 20em;
+}
+.github{
+    width: 20em;
+}
+/* Tooltip container */
+.tooltip {
+    position:relative; /* making the .tooltip span a container for the tooltip text */
+    border-bottom:1px dashed #000; /* little indicater to indicate it's hoverable */
+  }
+  .tooltip:before {
+    content: attr(data-text); /* here's the magic */
+    position:absolute;
+    
+    /* vertically center */
+    transform:translateY(0%);
+    transform:translateX(50%);
+    
+    /* move to right */
+    right:50%;
+    bottom: 100%;
+    
+    /* basic styles */
+    width:6em;
+    padding:.3em;
+    border-radius:5%;
+    background:#000;
+    color: #fff;
+    text-align:center;
+  
+    display:none; /* hide by default */
+  }
+  .tooltip:hover:before {
+    display:block;
+  }
+
+  .github a{
+    text-decoration:underline;
+    text-decoration-color: silver;
+    text-decoration-thickness: .2em;
+    text-decoration-style: dotted;
+  }
 
 /* Style the navbar */
 #navbar {
@@ -143,7 +253,9 @@ p.desc {
     padding: 1em;
     text-decoration: none;
   }
-  
+  #navbar a:hover{
+    background-color: #424549;
+  }
   /* Page content */
   .content {
     padding: 16px;

@@ -17,3 +17,16 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+
+
+function copyTextPhone() {
+  let text = document.getElementById("phone").textContent;
+  /* Copy text into clipboard */
+  navigator.clipboard.writeText(text);
+}
+function copyTextEmail() {
+  let text = document.getElementById("email").textContent;
+  /* Copy text into clipboard */
+  navigator.clipboard.writeText(text);
+}
