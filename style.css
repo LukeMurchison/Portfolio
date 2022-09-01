@@ -73,27 +73,22 @@ body{
     padding-bottom: 2em;
 }
 .skills_content ul{
-    flex-grow: 1;
     color: silver;
     font-size: 1.3em;
-    padding-top: 2em;
-    padding-left: 2em;
     text-align: left;
     margin: 0;
-    margin-left: 15%;
-    width: 25%;
 }
 .skills_content p{
-    flex-grow: 1;
     color: silver;
     font-size: 1.3em;
-    padding-top: 2em;
-    padding-right: 2em;
     text-align: center;
     margin: 0;
-    margin-right: 15%;
-    width: 25%;
-
+}
+.sleft{
+    width: 20em;
+}
+.sright{
+    width: 20em;
 }
 .project{
     padding: 2em;
