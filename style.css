@@ -144,6 +144,7 @@
 }
 .content h3{
     margin: 0;
+    padding: 0;
     color: #7289da;
 }
 
@@ -154,8 +155,9 @@ p.date {
     color: silver;
 }
 p.desc {
-    font-size: .9em;
+    font-size: 1em;
     margin-bottom: 0;
+    padding-bottom: 1em;
     text-align: left;
     margin-top: .5em;
     color: silver;
