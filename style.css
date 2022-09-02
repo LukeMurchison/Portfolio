@@ -44,8 +44,9 @@
     font-size: 1.3em;
     padding: 2em;
     text-align: center;
-    margin: 0;
-    width: 300px;
+    width: 350px;
+    margin: auto;
+
 }
 
 .skills{
@@ -127,6 +128,14 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+.eric{
+    color: silver;
+}
+.project_pic{
+    height: 100px;
+    display: block;
+    width: 100%;
+}
 .project span {
     height: 100px;
     display: block;
@@ -150,11 +159,11 @@ p.desc {
     text-align: left;
     margin-top: .5em;
     color: silver;
-}
-
-a{
+    letter-spacing: 1px;
+    line-height: 1em;
     text-decoration: none;
 }
+
 
 
 .contact{
