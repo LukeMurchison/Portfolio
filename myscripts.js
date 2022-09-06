@@ -21,9 +21,9 @@ function myFunction() {
 
 
 function copyTextPhone() {
-  let text = document.getElementById("phone").textContent;
+  let phone = document.getElementById("phone").textContent;
   /* Copy text into clipboard */
-  navigator.clipboard.writeText(text);
+  navigator.clipboard.writeText(phone);
 }
 function copyTextEmail() {
   let text = document.getElementById("email").textContent;
