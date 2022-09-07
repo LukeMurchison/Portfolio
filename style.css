@@ -44,11 +44,14 @@
     font-size: 1.3em;
     padding: 2em;
     text-align: center;
-    width: 350px;
+    width: 500px;
     margin: auto;
 
 }
-
+.about p a{
+    color: silver;
+    text-decoration:underline;
+}
 .skills{
     padding: 2em;
     scroll-margin-top: 10em;
