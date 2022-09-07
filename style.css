@@ -19,6 +19,7 @@
     background: -webkit-linear-gradient(#7289da, silver);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: fadeIn 2s;
 }
 .face_pic{
     max-width: 10em;
@@ -45,16 +46,13 @@
     font-size: 1.3em;
     padding: 2em;
     text-align: center;
-    width: 500px;
+    width: 700px;
     margin: auto;
-
 }
 .about p a{
     color: silver;
     text-decoration:underline;
     text-decoration-color: silver;
-    text-decoration-thickness: .2em;
-    text-decoration-style: dotted;
 }
 .skills{
     padding: 2em;
@@ -93,10 +91,10 @@
 
 }
 .sleft{
-    width: 20em;
+    width: 30em;
 }
 .sright{
-    width: 20em;
+    width: 30em;
 }
 .project{
     scroll-margin-top: 5em;
@@ -159,7 +157,7 @@ p.date {
     text-align: left;
     font-size: .7em;
     text-transform: uppercase;
-    color: silver;
+    color:#71A6B8;
 }
 p.desc {
     font-size: 1em;
@@ -334,12 +332,34 @@ body {
 		background-position: 0% 50%;
 	}
 }
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
+.view{
+    display: flex;
+    justify-content: space-around;
+}
+.view p{
+    padding: 1em;
+    border-top: 3px solid silver;
+}
+.v_source{
+    border-left: 3px solid silver;
+    text-decoration: none;
+}
+.v_source:hover{
+    background-color: #424549;
+    border-radius: 0px 0px 20px 0px;
+}
 
-
-
-
-
-
+.v_pro{
+    text-decoration: none;
+}
+.v_pro:hover{
+    background-color: #424549;
+    border-radius: 0px 0px 20px 0px;
+}
 
 
