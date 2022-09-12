@@ -60,6 +60,9 @@ html{
     width: 700px;
     margin: auto;
 }
+li{
+    text-align: center;
+}
 .about p a{
     color: silver;
     text-decoration:underline;
@@ -108,7 +111,7 @@ html{
     background-image: url('images/py\ icon\ 2.webp');
     background-size: cover;
     background-position: center;
-    left: 0;
+    left: 35%;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -120,7 +123,7 @@ html{
     background-image: url('images/html\ icon.png');
     background-size: cover;
     background-position: center;
-    left: 0;
+    left: 35%;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -132,7 +135,7 @@ html{
     background-image: url('images/git\ icon.png');
     background-size: cover;
     background-position: center;
-    left: 0;
+    left: 35%;
     top: 50%;
     transform: translateY(-50%);
 }
