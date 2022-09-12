@@ -342,7 +342,6 @@ nav {
     text-align: center;
     padding: 1em;
     text-decoration: none;
-    scroll-padding-top: 5em;
   }
   nav a:hover{
     background-color: #424549;
