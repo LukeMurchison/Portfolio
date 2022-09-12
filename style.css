@@ -262,7 +262,7 @@ p.desc {
     color: silver;
     font-size: 1.3em;
     padding-top: .2em;
-    padding-bottom: 2em;
+    padding-bottom: 0em;
     text-align: center;
     margin: 0;
 }
@@ -272,9 +272,18 @@ p.desc {
     padding-left: .3em;
     margin-bottom: 5em;
 }
+.mailto{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    text-decoration:underline;
+    text-decoration-color: silver;
+}
 .email_content{
     display: flex;
     justify-content: center;
+    padding: 0;
+    height: 100%;
 }
 .phone_content{
     display: flex;
@@ -283,8 +292,13 @@ p.desc {
 .Phone{
     width: 20em;
 }
+#email p{
+    height: 100%;
+    padding: 0;
+}
 .Email{
     width: 20em;
+    height: 100%;
 }
 .github{
     width: 20em;
@@ -323,8 +337,6 @@ p.desc {
   .github a{
     text-decoration:underline;
     text-decoration-color: silver;
-    text-decoration-thickness: .2em;
-    text-decoration-style: dotted;
   }
 
 /* Style the navbar */
