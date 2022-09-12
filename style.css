@@ -101,7 +101,7 @@ li{
 }
 .skill_list li {
     position: relative;
-    padding-left: 20px;
+    padding-left: 0em;
 }
 .skill_list li.py:before {
     content: '';
@@ -111,7 +111,7 @@ li{
     background-image: url('images/py\ icon\ 2.webp');
     background-size: cover;
     background-position: center;
-    left: 35%;
+    left: 25%;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -123,11 +123,12 @@ li{
     background-image: url('images/html\ icon.png');
     background-size: cover;
     background-position: center;
-    left: 35%;
+    left: 25%;
     top: 50%;
     transform: translateY(-50%);
 }
 .skill_list li.git-hub:before {
+    padding: .2px;
     content: '';
     width: 15px;
     height: 15px;
@@ -135,7 +136,7 @@ li{
     background-image: url('images/git\ icon.png');
     background-size: cover;
     background-position: center;
-    left: 35%;
+    left: 25%;
     top: 50%;
     transform: translateY(-50%);
 }
