@@ -4,7 +4,7 @@
 html{
     scroll-behavior: smooth;
 }
-.header{
+header{
     padding: 2em;
     display: flex;
     justify-content: center;
@@ -14,7 +14,7 @@ html{
     background-position: 50% 45%;
     border-radius: 10px 10px 0px 0px;
 }
-.header h1{
+header h1{
     margin-top: auto;
     margin-bottom: auto;
     font-size: 4em;
@@ -200,10 +200,9 @@ li{
     width: 100%;
 }
 .project span {
-    height: 100px;
+    height: 10px;
     display: block;
     width: 100%;
-    background: #71A6B8;
 }
 .content h3{
     margin: 0;
@@ -328,7 +327,7 @@ p.desc {
   }
 
 /* Style the navbar */
-#navbar {
+nav {
     overflow: hidden;
     background-color: #1e2124;
     border-radius: 0px 0px 10px 10px;
@@ -336,7 +335,7 @@ p.desc {
   }
   
   /* Navbar links */
-  #navbar a {
+  nav a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -345,7 +344,7 @@ p.desc {
     text-decoration: none;
     scroll-padding-top: 5em;
   }
-  #navbar a:hover{
+  nav a:hover{
     background-color: #424549;
     border-radius: 25px;
   }
