@@ -80,7 +80,7 @@ li {
   padding: 2em;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .skills_content ul {
   color: silver;
