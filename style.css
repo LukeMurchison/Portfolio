@@ -18,11 +18,6 @@ header h1 {
   font-size: 4em;
   text-align: center;
   color: #7289da;
-  /*
-    background: -webkit-linear-gradient(rgb(201, 97, 158), rgb(252, 150, 69));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    */
   animation: fadeIn 2s;
   text-shadow: 0 0 10px rgb(201, 97, 158), 0 0 15px rgb(252, 150, 69);
 }
@@ -297,21 +292,19 @@ p.desc {
   width: 20em;
 }
 .tooltip {
-  position: relative; /* making the .tooltip span a container for the tooltip text */
-  border-bottom: 1px dashed #000; /* little indicater to indicate it's hoverable */
+  position: relative;
+  border-bottom: 1px dashed #000;
 }
 .tooltip:before {
-  content: attr(data-text); /* here's the magic */
+  content: attr(data-text);
   position: absolute;
 
   transform: translateY(0%);
   transform: translateX(50%);
 
-  /* move to right */
   right: 50%;
   bottom: 100%;
 
-  /* basic styles */
   width: 6em;
   padding: 0.3em;
   border-radius: 5%;
@@ -319,7 +312,7 @@ p.desc {
   color: #fff;
   text-align: center;
 
-  display: none; /* hide by default */
+  display: none;
 }
 .tooltip:hover:before {
   display: block;
@@ -330,7 +323,6 @@ p.desc {
   text-decoration-color: silver;
 }
 
-/* Style the navbar */
 nav {
   overflow: hidden;
   background-color: #1e2124;
@@ -338,7 +330,6 @@ nav {
   z-index: 999;
 }
 
-/* Navbar links */
 nav a {
   float: left;
   display: block;
@@ -351,24 +342,20 @@ nav a:hover {
   background-color: #424549;
   border-radius: 25px;
 }
-/* Page content */
 .content {
   padding: 16px;
 }
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 60px;
 }
 
-/* body color */
 body {
   margin: 3px;
   background: linear-gradient(-45deg, rgb(201, 97, 158), rgb(252, 150, 69));
