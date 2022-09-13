@@ -1,15 +1,9 @@
-// When the user scrolls the page, execute myFunction
 window.onscroll = function () {
   myFunction();
 };
 
-// Get the navbar
 var navbar = document.getElementById("nav");
-
-// Get the offset position of the navbar
 var sticky = navbar.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky");
@@ -18,15 +12,11 @@ function myFunction() {
   }
 }
 
-
-
 function copyTextPhone() {
   let phone = document.getElementById("phone").textContent;
-  /* Copy text into clipboard */
   navigator.clipboard.writeText(phone);
 }
 function copyTextEmail() {
   let text = document.getElementById("email").textContent;
-  /* Copy text into clipboard */
   navigator.clipboard.writeText(text);
 }
