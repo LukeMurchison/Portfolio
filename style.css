@@ -14,10 +14,17 @@ header {
   background-position: 50% 45%;
   border-radius: 10px 10px 0px 0px;
 }
+.name{
+  z-index: 2;
+  filter: blur(4px);
+  height: 50px;
+  width: 50px;
+}
 header h1 {
   font-size: 4em;
   text-align: center;
   color: #7289da;
+  z-index: 23;
   animation: fadeIn 2s;
   text-shadow: 0 0 10px rgb(201, 97, 158), 0 0 15px rgb(252, 150, 69);
 }
