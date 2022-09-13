@@ -80,12 +80,11 @@ li {
   padding: 2em;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .skills_content ul {
   color: silver;
   font-size: 1.5em;
-  text-align: left;
   margin: 0;
 }
 .skill_list {
@@ -133,13 +132,7 @@ li {
   top: 50%;
   transform: translateY(-50%);
 }
-.skills_content p {
-  color: silver;
-  font-size: 1.3em;
-  text-align: center;
-  margin: 0;
-  padding: 1em;
-}
+
 .sleft {
   width: 30em;
   margin-top: 3em;
