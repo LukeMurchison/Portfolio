@@ -87,10 +87,9 @@ li {
   text-decoration-color: silver;
 }
 .skills {
+  scroll-margin-top: 5em;
   padding: 2em;
-  scroll-margin-top: 10em;
-  margin: 0;
-  background-color: #282b30;
+  background-color: #1e2124;
   margin-bottom: 3px;
   border-radius: 10px;
 }
@@ -102,7 +101,7 @@ li {
   color: #7289da;
 }
 .skills_content {
-  padding-bottom: 2em;
+  padding: 2em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -134,10 +133,10 @@ li {
 }
 .skill_list li.html:before {
   content: "";
+  background-image: url("images/html\ icon.png");
   width: 15px;
   height: 15px;
   position: absolute;
-  background-image: url("images/html\ icon.png");
   background-size: cover;
   background-position: center;
   left: 25%;
@@ -425,4 +424,26 @@ body {
 .v_pro:hover {
   background-color: #424549;
   border-radius: 0px 0px 0px 20px;
+}
+
+.skill_card {
+  width: 8em;
+  border-radius: 5%;
+  margin: 2em;
+  background: #36393e;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.content h4{
+  margin: 0;
+  font-size: 1em;
+  padding: 0.5em;
+  text-align: center;
+  color: silver;
+}
+.skill_card img{
+  width: 8em;
+  height: 8em;
+  background-image: linear-gradient(to top, rgb(255, 255, 255, .3), rgba(255,0,0,0));
 }
