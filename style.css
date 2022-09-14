@@ -30,7 +30,7 @@ header {
   bottom: 0;
   background-color: black;
   border-radius: 10px 10px 10px 10px;
-  opacity: 50%;
+  opacity: 60%;
   filter: blur(10px);
   z-index:0;
 }
@@ -71,7 +71,7 @@ header h1 {
   color: #7289da;
 }
 .about p {
-  color: silver;
+  color: #c0c0c0;
   font-size: 1.3em;
   padding: 2em;
   text-align: center;
@@ -429,7 +429,7 @@ body {
 .skill_card {
   width: 8em;
   border-radius: 5%;
-  margin: 2em;
+  margin: 1em;
   background: #36393e;
   display: flex;
   flex-wrap: wrap;
