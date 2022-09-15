@@ -20,3 +20,11 @@ function copyTextEmail() {
   let text = document.getElementById("email").textContent;
   navigator.clipboard.writeText(text);
 }
+function copyTextGit() {
+  let text = document.getElementById("git_name").textContent;
+  navigator.clipboard.writeText(text);
+}
+function copyTextLink() {
+  let text = document.getElementById("link_name").textContent;
+  navigator.clipboard.writeText(text);
+}

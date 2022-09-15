@@ -260,6 +260,7 @@ p.desc {
   color: silver;
   font-size: 2em;
   text-align: center;
+  padding-top: 1em;
   padding-bottom: 0.3em;
   margin: 0;
 }
@@ -280,7 +281,7 @@ p.desc {
 .mailto {
   padding: 0;
   margin: 0;
-  height: 100%;
+  height: 26px;
   text-decoration: underline;
   text-decoration-color: silver;
 }
@@ -288,7 +289,6 @@ p.desc {
   display: flex;
   justify-content: center;
   padding: 0;
-  height: 100%;
 }
 .phone_content {
   display: flex;
@@ -306,6 +306,9 @@ p.desc {
   height: 100%;
 }
 .github {
+  width: 20em;
+}
+.LinkedIn{
   width: 20em;
 }
 .tooltip {
@@ -446,4 +449,7 @@ body {
   width: 8em;
   height: 8em;
   background-image: linear-gradient(to top, rgb(255, 255, 255, .3), rgba(255,0,0,0));
+}
+.linkedin{
+  width: 20em;
 }
