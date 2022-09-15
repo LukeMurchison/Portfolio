@@ -100,12 +100,7 @@ li {
   text-align: center;
   color: #7289da;
 }
-.skills_content {
-  padding: 2em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
+
 .skills_content ul {
   color: silver;
   font-size: 1.5em;
@@ -188,7 +183,7 @@ li {
 
 .contain {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .card {
