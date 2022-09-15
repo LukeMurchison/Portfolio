@@ -375,7 +375,7 @@ nav a:hover {
 
 body {
   margin: 3px;
-  background: linear-gradient(-45deg, rgb(201, 97, 158), rgb(252, 150, 69));
+  background: linear-gradient(-45deg, #c9619e, #fc9645);
   background-size: 400% 400%;
   animation: gradient 5s ease infinite;
   height: 100%;
