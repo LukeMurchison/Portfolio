@@ -176,7 +176,6 @@ li {
 .project p {
   color: silver;
   font-size: 1.3em;
-  padding-bottom: 2em;
   text-align: center;
   margin: 0;
 }
@@ -403,6 +402,14 @@ body {
   display: flex;
   justify-content: space-around;
 }
+.only_view {
+  width: 320px;
+  height: auto;
+}
+.only_view:hover {
+  background-color: #424549;
+  border-radius: 0px 0px 20px 20px;
+}
 .view p {
   padding: 1em;
   border-top: 1px solid silver;
@@ -412,9 +419,18 @@ body {
   text-decoration: none;
   padding: 0;
 }
+.only_v_source {
+  text-decoration: none;
+  padding: 0;
+  width: 100%;
+}
 .v_source:hover {
   background-color: #424549;
   border-radius: 0px 0px 20px 0px;
+}
+.only_v_source:hover {
+  background-color: #424549;
+  border-radius: 0px 0px 20px 20px;
 }
 .v_pro {
   text-decoration: none;
@@ -422,6 +438,12 @@ body {
 .v_pro:hover {
   background-color: #424549;
   border-radius: 0px 0px 0px 20px;
+}
+.why{
+  position:relative;
+  padding: 1em;
+  border-top: 1px solid silver;
+  text-align: center;
 }
 
 .skill_card {
