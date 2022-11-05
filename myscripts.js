@@ -24,7 +24,3 @@ function copyTextGit() {
   let text = document.getElementById("git_name").textContent;
   navigator.clipboard.writeText(text);
 }
-function copyTextLink() {
-  let text = document.getElementById("link_name").textContent;
-  navigator.clipboard.writeText(text);
-}
